@@ -26,7 +26,7 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t finbank-app .
+          docker build -t finbank-app ./finbank-app
 
       - name: Tag Image
         run: |
